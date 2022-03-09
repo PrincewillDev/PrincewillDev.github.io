@@ -1,0 +1,88 @@
+@media(max-width: 51.25rem) {
+    #destination-section ul{
+        grid-template-columns: 100%;
+    }
+
+    .destination-content p{
+        font-size: 1.125rem;
+    }
+
+}
+
+@media(max-width: 48rem) {
+    
+
+    #page-logo a{
+        font-size: 1.5rem;
+    }
+
+    .nav-list ul{
+        font-size: 1rem;
+    }
+
+    .nav-list li{
+        margin: 0 10px;
+    }
+
+    #destination-section ul{
+        grid-template-columns: 100%;
+    }
+
+    .destination-content p{
+        font-size: 1.125rem;
+    }
+
+    footer ul{
+        margin: 0 auto;
+        padding: 0;
+    }
+}
+
+/* For Mobile */
+
+@media(max-width: 42.5rem) {
+    html{
+        max-width: 42.5rem;
+    }
+
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    header{
+        position: static;
+        background: rgb(137, 168, 189);
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #page-logo a{
+        color: rgb(252, 193, 37);
+    }
+
+    .nav-list{
+        display: none;
+    }
+
+    .hamburger-menu{
+        display: flex;
+    }
+
+    .banner-content h1{
+        font-size: 2rem;
+        color: white;
+    }
+
+    .banner-content p {
+        text-transform: capitalize;
+        font-size: 1.3rem;
+        color: white;
+        margin-top: 0.75rem;
+    }
+
+    .banner-content a{
+        margin: 1rem 0 0 0;
+    }
+    
+}
